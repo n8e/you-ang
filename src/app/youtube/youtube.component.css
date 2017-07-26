@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+.responsive-image {
+    max-width: 100%;
+}
+
+.cell img {
+    display: block;
+    margin: 0 auto;
+}
+
+.title-container {
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media screen and (min-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cell {
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+        width: 50%;
+    }
+}

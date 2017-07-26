@@ -1,10 +1,10 @@
-import { PostaPage } from './app.po';
+import { YouangPage } from './app.po';
 
-describe('posta App', () => {
-  let page: PostaPage;
+describe('you-ang App', () => {
+  let page: YouangPage;
 
   beforeEach(() => {
-    page = new PostaPage();
+    page = new YouangPage();
   });
 
   it('should display welcome message', () => {

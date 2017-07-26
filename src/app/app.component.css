@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+#header {
+    height: 64px;
+    background: #fff;
+    position: fixed;
+    header: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header h1#logo {
+    float: left;
+    margin: 0;
+}
+
+#header h1#logo a {
+    background: url(../assets/logo.png) no-repeat top left;
+    width: 194px;
+    height: 48px;
+    margin: 8px;
+    display: block;
+    text-indent: -9999px;
+}
+
+#header .router-link-active {
+    color: #C83434;
+}
+
+#header .color {
+    display: block;
+    height: 4px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+#header #menu {
+    font-family: Arial;
+    font-size: 0.9em;
+    float: right;
+    padding: 17px 40px 0 0;
+}
+
+#container {
+    padding: 100px 20px 20px 20px;
+}
+
+.color {
+    background-color: rgba(195, 30, 30, 0.9) !important;
+}
+
+.shadow {
+    background: url(../assets/top-shadow.png) repeat-x;
+    height: 35px;
+    position: fixed;
+    top: 68px;
+    width: 100%;
+}

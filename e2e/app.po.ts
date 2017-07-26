@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class PostaPage {
+export class YouangPage {
   navigateTo() {
     return browser.get('/');
   }
